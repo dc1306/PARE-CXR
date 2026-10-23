@@ -1,0 +1,13 @@
+# Outputs and anything derived from MIMIC-CXR must never be committed
+outputs/
+*.json
+!requirements/*.json
+*.npy
+*.pkl
+*.log
+*.csv
+*.jpg
+*.png
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
